@@ -1,1 +1,1 @@
-# 1000hours-test
+# 10000hours-law
