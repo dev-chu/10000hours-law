@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+
+html, body{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #5B2386;
+}
+
+.container{
+    
+margin: 0;
+padding: 0;
+
+}
+
+/* ------------------------------ header ------------------------------  */
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title{
+    position: absolute;
+    width: 564px;
+   
+}
+
+.header-clock{
+    /* position: absolute; X*/
+    width: 261px;
+    height: 265px;
+    left: 830px;
+    top: 199px;
+
+}
+
+/* ------------------------------- main -------------------------------  */
+
+.main{
+}
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 46px 0 78px;
+    font-family: 'OTEnjoystoriesBA';
+    color: #f5df4d;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.main-title p{
+    text-align: center;
+}
+
+.sub-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 78px;
+}
+
+.quotes{ 
+    position: absolute;
+    width: 493px;
+    margin-top: 30px;
+}
+
+.sub-title p{
+    margin: 78px 14px 0;
+    position: relative;
+    font-weight: 400;
+    font-family: 'GmarketSansMedium';
+    font-size: 17px;
+    color: #FFFFFF;
+    line-height: 1.7;
+}
+
+.sub-title p strong{
+    font-size: 20px;
+    font-family: 'GmarketSansBold';
+}
+
+.traning-form-wrapper{
+    margin-top: 205px;
+    font-family: 'GmarketSansMedium';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.traning-form-wrapper .professor, .everyday{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.traning-form-wrapper input{
+    margin: 0 17px 0;
+    font-family: 'GmarketSansMedium';
+    font-weight: 400;
+    font-size: 24px;
+    border-radius: 7px;
+    width: 228px;
+    height: 57px;
+    padding: 0 20px;
+}
+
+.traning-form-wrapper input::placeholder{
+    text-align: center;
+    color: #BABCBE;
+    font-size: 24px;
+}
+
+/* ------------------- btn ----------------  */
+
+button{
+    cursor: pointer;
+}
+
+.yellow-btn{
+    background-color: #FCEE21;
+    color: #5B2386;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 65px;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'GmarketSansMedium';
+    border: none;
+}
+
+.traning-form-wrapper .click-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+}
+
+.how-long_btn{
+    width: 565px;
+    height: 66px;
+}
+
+.traning-form-wrapper .click-finger{
+   width: 64px;
+   height: 72px;
+   margin-left: 7px;
+}
+
+.gogo{
+    width: 356px;
+    height: 66px;
+    margin-right: 18px;
+}
+
+.share{
+    width: 191px;
+    height: 66px;
+    background-color: #FFFFFF;
+}
+
+/* ------------------- result ----------------  */
+
+
+.result_wrapper{
+    margin-top: 147px;
+}
+
+.result_wrapper .result-traning .result1, .result2{
+    font-family: 'GmarketSansMedium';
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result_wrapper .result-traning .result1 strong, .result2 strong{
+    font-weight: 700;
+    font-size: 72px;
+    margin: 0 12px;
+}
+
+.result_wrapper .gogo-share_btn{
+    margin-top: 127px;
+    display: flex;
+    justify-content: center;
+}
+
+.result_wrapper .gogo-share_btn .share{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 56px;
+    color: #5B2386;
+    font-family: 'Gmarket Sans';
+    font-weight: 700;
+    font-size: 24px;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+.footer p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
