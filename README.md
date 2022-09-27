@@ -1,1 +1,1 @@
-# 10000hours-law
+# 10000hour-law
